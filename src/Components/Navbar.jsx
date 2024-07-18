@@ -14,14 +14,14 @@ export default function Navbar(props) {
       className="toggleSwitch">
         <p>Dark</p>
         <div className="toggle-circle">
-          <span className="toggle-icon"></span>
+          <span className={ !props.toggleMode ? "toggle-icon" : 'toggle-inactive'}></span>
         </div>
         <p>Light</p>
       </div>
-      <h4 className={ !props.toggleMode ? 'for-lightMode':'right_nav_descrip'}>
+      <h4 id="myToggleHeading" className={ !props.toggleMode ? 'for-lightMode':'right_nav_descrip'}>
         ReactCourse-{" "}
         </h4>
-      <h5 className={ !props.toggleMode ? 'for-lightMode':'right_nav_descrip_sub'}>
+      <h5 id="myToggleHeading" className={ !props.toggleMode ? 'for-lightMode':'right_nav_descrip_sub'}>
         Project 1
         </h5>
     </nav>

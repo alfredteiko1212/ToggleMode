@@ -7,7 +7,7 @@ import Navbar from './Components/Navbar'
 
 function App() {
 
-  const title= "React-Alfred";
+  const title= "React-Alfred Teiko";
   
   const [toggleMode,setToggleMode] =useState(true);
   // console.log(toggleMode);
