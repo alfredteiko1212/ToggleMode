@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-family: 'inter', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  .nav_block {
+    padding:1em 2em;
+    background-color:#21222a;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color:#ffffff;
+  }
+  
+  
+  .logo {
+    height:40px;
+    margin-right:10px;
+  }
+  
+  .logoName {
+    color:#61DAFB;
+    margin-right:auto;
+    font-size: 30px;
+  }
+  
+  .right_nav_descrip,
+  .right_nav_descrip_sub {
+    color: #DEEBF8;
+    text-align: right;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .right_nav_descrip_sub {
+    font-size: 20px;
+  }
+  
+  /* Main Page Section */
+  
+  main {
+   background-image: url(./assets/react-icon.png);
+   background-repeat: no-repeat;
+   background-position: right 60%;
+   background-size: contain;
+   padding-left: 70px;
+   color:white;
+   padding-top:70px;
+   /* padding-bottom: 100px; */
+   height: 72.5vh;
+   background-color: #282d35;
+  }
+  
+  main h1 {
+    font-size: 39px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 47px;
+  }
+  
+  ul > li {
+    padding:.6em;
+    width:400px;
+    font-weight:300;
+    font-size: 20px;
+  }
+  
+  li::marker {
+    color:#61DAFB;
+    font-size: 25px;
+  }
+
+/* Our toggle switch styles begin from here */
+.toggleSwitch{
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.toggle-circle{
+  width:35px;
+  padding: 0px .5px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 99999px;
+  transition: all ease-in .5s; /* new code*/
+}
+
+/* This is a new code */
+.switch-toggle{
+  width: 40px;
+  border-radius: 99999px;
+  padding: 0px 1px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle-icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: rgb(35, 177, 54);
+}
+  
+  
+ .for-lightMode{
+  background-color: white;
+  color: #12222a
+ } 
+
+ .for-darkMode{
+  background-color: #21222a;
+  color:white;
+ }
+
+
+
+
+  
+  
+  
+  
+  
+  
+   
